@@ -1,2 +1,2 @@
 # SMMandora.github.io
-Registration form using HTML, JS
+Registration form using HTML, JS.
