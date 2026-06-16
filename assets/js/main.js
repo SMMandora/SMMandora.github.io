@@ -3,6 +3,8 @@ import { initReveals } from './reveals.js';
 import { initCounters } from './counters.js';
 import { initProjectCards } from './project-cards.js';
 import { initCopyEmail } from './copy-email.js';
+import { initSpotlight } from './spotlight.js';
+import { initMiniNav } from './nav.js';
 
 async function loadCurrently() {
   const root = document.querySelector('[data-currently]');
@@ -48,6 +50,8 @@ function init() {
   initCounters();
   initProjectCards();
   initCopyEmail();
+  initSpotlight();
+  initMiniNav();
   loadCurrently();
   loadBuildTimestamp();
   initReveals();
