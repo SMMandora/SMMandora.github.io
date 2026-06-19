@@ -4,23 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <title>Shubham Mandora — Backend & AI Engineer</title>
-  <meta name="description" content="Founding engineer building backend infrastructure and AI-driven pipelines. MS Computer Science, NYIT. Based in Brooklyn, NY.">
+  <title>Shubham Mandora — Backend, Data & AI Engineer</title>
+  <meta name="description" content="Founding engineer building backend, data, and AI systems — ETL pipelines, distributed architectures, and observability. MS Computer Science, NYIT · Jersey City, NJ.">
   <meta name="author" content="Shubham Mandora">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Shubham Mandora — Backend & AI Engineer">
-  <meta property="og:description" content="Founding engineer building backend infrastructure and AI-driven pipelines. Based in Brooklyn, NY.">
+  <meta property="og:title" content="Shubham Mandora — Backend, Data & AI Engineer">
+  <meta property="og:description" content="Founding engineer building reliable systems that turn events into intelligence — backend, data pipelines, and AI. Jersey City, NJ.">
   <meta property="og:url" content="https://smmandora.github.io/">
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="canonical" href="https://smmandora.github.io/">
 
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0a'/%3E%3Ctext x='16' y='22' font-family='ui-monospace,Menlo,monospace' font-size='15' font-weight='700' text-anchor='middle' fill='%23d8ff3c'%3ESM%3C/text%3E%3C/svg%3E">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shubham Mandora",
+    "jobTitle": "Founding Engineer — Backend & Data",
+    "worksFor": { "@type": "Organization", "name": "Vizzy Labs" },
+    "url": "https://smmandora.github.io/",
+    "email": "mailto:shubhammandora220800@gmail.com",
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "New York Institute of Technology" },
+      { "@type": "CollegeOrUniversity", "name": "Sandip University" }
+    ],
+    "address": { "@type": "PostalAddress", "addressLocality": "Jersey City", "addressRegion": "NJ", "addressCountry": "US" },
+    "sameAs": [
+      "https://linkedin.com/in/shubhamm2208",
+      "https://github.com/SMMandora"
+    ],
+    "knowsAbout": ["Backend Engineering", "Data Engineering", "Distributed Systems", "AI Systems", "RAG", "Observability", "Cloud Infrastructure", "Python", "Go", "Kubernetes", "AWS"]
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E1320'/%3E%3Ctext x='16' y='22' font-family='ui-monospace,Menlo,monospace' font-size='15' font-weight='700' text-anchor='middle' fill='%232F6BFF'%3ESM%3C/text%3E%3C/svg%3E">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
@@ -33,10 +55,12 @@
     <a class="mini-nav__name" href="#top">SM_</a>
     <nav class="mini-nav__links" aria-label="Sections">
       <a href="#about">~/about</a>
-      <a href="#work">~/work</a>
-      <a href="#devops">~/devops</a>
+      <a href="#overview">~/overview</a>
       <a href="#experience">~/experience</a>
-      <a href="#skills">~/skills</a>
+      <a href="#systems">~/systems</a>
+      <a href="#building">~/building</a>
+      <a href="#devops">~/devops</a>
+      <a href="#observability">~/observability</a>
       <a href="#contact">~/contact</a>
     </nav>
   </div>
@@ -47,7 +71,7 @@
   <!-- ===== 01 / HERO ===== -->
   <section class="hero container" id="top" aria-label="Intro">
     <div class="hero__topbar">
-      <span class="hero__brand">SHUBHAM_MANDORA / PORTFOLIO.V1</span>
+      <span class="hero__brand">SM · PORTFOLIO.V1</span>
       <span class="hero__status">
         <span class="status-dot status-dot--live" aria-hidden="true"></span>
         LIVE · NYC <span data-clock>--:--</span>
@@ -55,41 +79,47 @@
     </div>
 
     <div class="hero__main">
-      <h1 class="hero__title">
-        Building reliable <span class="accent">backend</span> &amp; <span class="accent">AI</span> systems.
-      </h1>
-      <p class="hero__sub">Founding Engineer @ Vizzy Labs · Brooklyn, NY</p>
-
-      <nav class="hero__nav" aria-label="Page sections">
-        <a href="#about">~/about</a>
-        <a href="#work">~/work</a>
-        <a href="#devops">~/devops</a>
-        <a href="#experience">~/experience</a>
-        <a href="#skills">~/skills</a>
-        <a href="#contact">~/contact</a>
-      </nav>
-
-      <ul class="hero__stats" aria-label="At a glance">
-        <li class="stat">
-          <span class="stat__label">Roles shipped</span>
-          <span class="stat__value"><span data-counter="5">0</span></span>
-        </li>
-        <li class="stat">
-          <span class="stat__label">Stack focus</span>
-          <span class="stat__value">PY · GO · TS</span>
-        </li>
-        <li class="stat">
-          <span class="stat__label">Cloud</span>
-          <span class="stat__value stat__value--sm">AWS · Azure · GCP</span>
-        </li>
-        <li class="stat">
-          <span class="stat__label">SLO target</span>
-          <span class="stat__value"><span data-counter="99.9">0</span><span class="accent">%</span></span>
-        </li>
-      </ul>
+      <p class="hero__role">
+        <span class="status-dot status-dot--live" aria-hidden="true"></span>
+        Founding Engineer @ Vizzy · Backend • Data • AI Systems
+      </p>
+      <h1 class="hero__title">Shubham Mandora</h1>
+      <p class="hero__tagline">
+        Building reliable systems that transform <span class="accent">events</span> into <span class="accent">intelligence</span>.
+      </p>
+      <p class="hero__lede">
+        Backend and data engineer building production ETL pipelines, AI systems,
+        distributed architectures, observability platforms, and cloud-native infrastructure.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#systems">View Systems →</a>
+        <a class="btn btn--ghost" href="./assets/Shubham_Mandora_Resume.pdf" download>Download Résumé</a>
+      </div>
     </div>
 
-    <a class="hero__cue" href="#about">↓ scroll for the work</a>
+    <a class="hero__cue" href="#systems">↓ scroll to explore</a>
+  </section>
+
+  <!-- ===== IMPACT BAR ===== -->
+  <section class="impact container" aria-label="At a glance">
+    <ul class="impact__grid">
+      <li class="impact__item" data-reveal>
+        <span class="impact__value">3-service</span>
+        <span class="impact__label">SLO mesh, chaos-tested</span>
+      </li>
+      <li class="impact__item" data-reveal data-reveal-delay="80">
+        <span class="impact__value">10k</span>
+        <span class="impact__label">WS connections, p99 &lt; 50ms</span>
+      </li>
+      <li class="impact__item" data-reveal data-reveal-delay="160">
+        <span class="impact__value">p95 &lt; 30s</span>
+        <span class="impact__label">AI code review</span>
+      </li>
+      <li class="impact__item" data-reveal data-reveal-delay="240">
+        <span class="impact__value"><span data-counter="99.9">0</span><span class="accent">%</span></span>
+        <span class="impact__label">28-day SLO @ 200ms p95</span>
+      </li>
+    </ul>
   </section>
 
   <!-- ===== 02 / ABOUT ===== -->
@@ -103,14 +133,14 @@
     <div class="about__grid">
       <div class="about__prose" data-reveal>
         <p>
-          I build <span class="accent">backend systems</span> and <span class="accent">AI pipelines</span> that ship —
-          production-grade infrastructure, observable distributed services, and the operational scaffolding
-          that keeps real products running.
+          I'm a <span class="accent">backend and data engineer</span> who builds the systems that move data from
+          raw events to something a product can act on — ingestion and <span class="accent">ETL pipelines</span>,
+          distributed services, AI inference, and the observability that keeps it all honest in production.
         </p>
         <p>
-          MS in Computer Science from NYIT. Currently a founding engineer at Vizzy Labs in Brooklyn,
-          working on real-time mobile game backends across AWS and Azure. I care about reliability
-          over novelty, simple primitives over clever abstractions, and the tedious 5% of engineering
+          MS in Computer Science from NYIT. Currently a founding engineer at Vizzy Labs,
+          building ETL pipelines and data infrastructure on AWS. I care about reliability over novelty,
+          simple primitives over clever abstractions, and the tedious 5% of engineering
           that turns a prototype into something a team can rely on.
         </p>
       </div>
@@ -135,27 +165,150 @@
     </div>
   </section>
 
-  <!-- ===== 03 / SELECTED WORK ===== -->
-  <section class="section container" id="work" aria-labelledby="work-title">
+  <!-- ===== SYSTEMS ARCHITECTURE OVERVIEW ===== -->
+  <section class="section container" id="overview" aria-labelledby="overview-title">
+    <header class="section__head">
+      <span class="section__num">// overview</span>
+      <h2 id="overview-title" class="section__title">how I think about systems</h2>
+    </header>
+    <div class="overview-diagram" data-reveal>
+      <svg viewBox="0 0 760 168" class="arch-diagram" role="img" aria-label="Systems overview: ingestion and ETL feed storage, which feeds AI/RAG and services, all under observability">
+        <rect x="8" y="42" width="132" height="84" rx="8" fill="none" stroke="#2A3548" stroke-width="1"/>
+        <text x="74" y="72" font-family="JetBrains Mono, monospace" font-size="11" fill="#E6ECF5" text-anchor="middle">Ingestion · ETL</text>
+        <text x="74" y="90" font-family="JetBrains Mono, monospace" font-size="8" fill="#8A94A6" text-anchor="middle">Celery · Airflow</text>
+        <text x="74" y="104" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" text-anchor="middle">SSE · webhooks</text>
+
+        <line x1="140" y1="84" x2="158" y2="84" stroke="#2F6BFF" stroke-width="1.5"/>
+        <polyline points="154,80 160,84 154,88" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+
+        <rect x="162" y="42" width="132" height="84" rx="8" fill="none" stroke="#2A3548" stroke-width="1"/>
+        <text x="228" y="72" font-family="JetBrains Mono, monospace" font-size="11" fill="#E6ECF5" text-anchor="middle">Storage</text>
+        <text x="228" y="90" font-family="JetBrains Mono, monospace" font-size="8" fill="#8A94A6" text-anchor="middle">Postgres · Mongo</text>
+        <text x="228" y="104" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" text-anchor="middle">DynamoDB · Redis</text>
+
+        <line x1="294" y1="84" x2="312" y2="84" stroke="#2F6BFF" stroke-width="1.5"/>
+        <polyline points="308,80 314,84 308,88" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+
+        <rect x="316" y="42" width="132" height="84" rx="8" fill="none" stroke="#2A3548" stroke-width="1"/>
+        <text x="382" y="72" font-family="JetBrains Mono, monospace" font-size="11" fill="#E6ECF5" text-anchor="middle">AI · RAG</text>
+        <text x="382" y="90" font-family="JetBrains Mono, monospace" font-size="8" fill="#8A94A6" text-anchor="middle">LangChain · pgvector</text>
+        <text x="382" y="104" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" text-anchor="middle">Claude API</text>
+
+        <line x1="448" y1="84" x2="466" y2="84" stroke="#2F6BFF" stroke-width="1.5"/>
+        <polyline points="462,80 468,84 462,88" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+
+        <rect x="470" y="42" width="132" height="84" rx="8" fill="none" stroke="#2A3548" stroke-width="1"/>
+        <text x="536" y="72" font-family="JetBrains Mono, monospace" font-size="11" fill="#E6ECF5" text-anchor="middle">Services</text>
+        <text x="536" y="90" font-family="JetBrains Mono, monospace" font-size="8" fill="#8A94A6" text-anchor="middle">Go · Python</text>
+        <text x="536" y="104" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" text-anchor="middle">FastAPI · WebSockets</text>
+
+        <line x1="602" y1="84" x2="620" y2="84" stroke="#2F6BFF" stroke-width="1.5"/>
+        <polyline points="616,80 622,84 616,88" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+
+        <rect x="624" y="42" width="132" height="84" rx="8" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+        <text x="690" y="72" font-family="JetBrains Mono, monospace" font-size="11" fill="#2F6BFF" text-anchor="middle">Observability</text>
+        <text x="690" y="90" font-family="JetBrains Mono, monospace" font-size="8" fill="#8A94A6" text-anchor="middle">Prometheus · Grafana</text>
+        <text x="690" y="104" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" text-anchor="middle">OpenTelemetry</text>
+
+        <text x="382" y="152" font-family="JetBrains Mono, monospace" font-size="9" fill="#5A6478" letter-spacing="1.5" text-anchor="middle">DATA IN → INTELLIGENCE OUT → OBSERVABLE THROUGHOUT</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== 03 / EXPERIENCE ===== -->
+  <section class="section container" id="experience" aria-labelledby="experience-title">
     <header class="section__head">
       <span class="section__ghost" aria-hidden="true">03</span>
       <span class="section__num">// 03</span>
-      <h2 id="work-title" class="section__title">selected work</h2>
+      <h2 id="experience-title" class="section__title">experience</h2>
+    </header>
+
+    <ol class="timeline">
+      <li class="timeline__entry" data-reveal>
+        <time class="timeline__date">08/2025 → Present</time>
+        <div class="timeline__body">
+          <h3 class="timeline__role">Founding Engineer — Backend &amp; Data</h3>
+          <p class="timeline__org">Vizzy Labs, Inc. · Brooklyn, NY</p>
+          <ul class="timeline__bullets">
+            <li>Build and maintain Python ETL pipelines on AWS, ingesting high-volume event data from internal and external sources with automated data-quality and integrity checks.</li>
+            <li>Design data models across relational (PostgreSQL) and NoSQL (MongoDB, DynamoDB) stores for downstream analytical and operational consumers.</li>
+            <li>Built pipeline observability with Prometheus, Grafana, and automated alerting that catches and resolves data issues before they reach consumers.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__entry" data-reveal>
+        <time class="timeline__date">01/2025 → 08/2025</time>
+        <div class="timeline__body">
+          <h3 class="timeline__role">Research Assistant</h3>
+          <p class="timeline__org">New York Institute of Technology · New York City</p>
+          <ul class="timeline__bullets">
+            <li>Built production Python data pipelines with Airflow-style orchestration over multi-source datasets — automated cleaning, schema standardization, and quality validation.</li>
+            <li>Built RAG-based semantic search and retrieval with LangChain and pgvector over embedding-based similarity.</li>
+            <li>Integrated and tuned scikit-learn models (Random Forest, SVM, MLP) for classification and deduplication, with hyperparameter tuning and cross-validation.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__entry" data-reveal>
+        <time class="timeline__date">02/2022 → 04/2022</time>
+        <div class="timeline__body">
+          <h3 class="timeline__role">Software Developer Intern</h3>
+          <p class="timeline__org">IDZ Digital Pvt. Ltd. · Mumbai, India</p>
+          <ul class="timeline__bullets">
+            <li>Developed consumer mobile games across the full SDLC (Java, Kotlin, C#, Unity), shipping to the App Store and Play Store.</li>
+            <li>Built backend game logic and automated validation scripts, plus regression and performance test plans to catch defects early.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__entry" data-reveal>
+        <time class="timeline__date">05/2021 → 07/2021</time>
+        <div class="timeline__body">
+          <h3 class="timeline__role">Python Developer Intern</h3>
+          <p class="timeline__org">Clear Exam · Nashik, India</p>
+          <ul class="timeline__bullets">
+            <li>Built a high-throughput data-processing pipeline with automated classification, hardened with validation across diverse datasets.</li>
+            <li>Designed secure API-driven services with auth, input validation, and data-integrity checks.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline__entry" data-reveal>
+        <time class="timeline__date">07/2020 → 10/2020</time>
+        <div class="timeline__body">
+          <h3 class="timeline__role">Software Developer Intern</h3>
+          <p class="timeline__org">Divspace, LLP · Nasik, India</p>
+          <ul class="timeline__bullets">
+            <li>Automated property-listing data processing and content validation, cutting manual handling across the platform.</li>
+            <li>Set up CI/CD-style deployment with automated validation for consistent, repeatable releases.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== 04 / SELECTED SYSTEMS ===== -->
+  <section class="section container" id="systems" aria-labelledby="systems-title">
+    <header class="section__head">
+      <span class="section__ghost" aria-hidden="true">04</span>
+      <span class="section__num">// 04</span>
+      <h2 id="systems-title" class="section__title">selected systems</h2>
     </header>
 
     <!-- Hero case study: Vizzy Labs -->
     <article class="case-study" data-reveal>
       <header>
-        <span class="case-study__label">// flagship case study</span>
-        <h3 class="case-study__title">Vizzy Labs — Founding Engineer, Backend &amp; Data</h3>
+        <span class="case-study__label">// flagship system</span>
+        <h3 class="case-study__title">SLO Reference Observability Stack</h3>
         <div class="case-study__meta">
-          <time>Aug 2025 → Present</time>
-          <span>Brooklyn, NY</span>
+          <time>2026</time>
+          <span>Go · Prometheus · React</span>
         </div>
         <ul class="tag-list">
-          <li>AWS</li><li>Kubernetes</li><li>Docker</li>
-          <li>Jenkins</li><li>GitHub Actions</li><li>Grafana</li>
-          <li>PostgreSQL</li><li>Python</li><li>Go</li><li>REST</li>
+          <li>Go</li><li>Python</li><li>Prometheus</li><li>Alertmanager</li>
+          <li>Grafonnet</li><li>OpenTelemetry</li><li>Tempo</li><li>Loki</li>
+          <li>React</li><li>Kubernetes</li><li>k6</li>
         </ul>
       </header>
 
@@ -163,75 +316,82 @@
         <div class="case-study__prose">
           <h4>Context</h4>
           <p>
-            Real-time mobile game with a global player base on Google Play and the App Store.
-            Hard requirements: 24×7 availability, leaderboard consistency under contention,
-            transactional integrity for in-game purchases, and low-latency gameplay APIs.
+            Most observability advice is slideware. This is a runnable stack that shows SLO
+            practice end to end across a real three-service mesh — error budgets, burn-rate
+            alerting, distributed tracing, and chaos, all as code.
           </p>
 
-          <h4>Approach</h4>
+          <h4>Architecture &amp; decisions</h4>
           <p>
-            Multi-region distributed backend on AWS. Microservices decomposed
-            by domain — gameplay, auth, leaderboard, financial transactions — each with its own
-            test suite (unit, integration, contract, performance). CI/CD via Docker, Jenkins,
-            GitHub Actions, and Kubernetes with automated build verification and regression gates.
-            Telemetry-driven observability with SLI/SLO dashboards in Grafana and proactive alerting.
+            Three microservices (Go and Python) plus mock dependencies emit metrics, traces, and
+            logs. Prometheus computes SLI, error budget, multi-window burn rate, and p95 as
+            recording rules — one source of truth read by both a custom React SLO Control Center
+            (8 tabs) and four Grafonnet dashboards. Alertmanager routes burn-rate, service-down,
+            and disk alerts by severity to a webhook with linked runbooks. Trace context
+            propagates through the Redis streams, so one payment is a single distributed trace.
           </p>
 
-          <h4>Outcome</h4>
+          <h4>Impact</h4>
           <p>
-            SLO-backed availability with automated failure detection. Proactive bottleneck
-            detection through load and stress testing under production-like conditions.
-            Release confidence from quality gates blocking regressions before they ship.
+            Auto-verifying chaos scenarios (error burst, service down, payments-latency, disk
+            fill) perturb the live stack, assert the expected alert fired, then revert. Runs on
+            both Docker Compose and Kubernetes (kind + Kustomize), driven by deterministic k6
+            load, with the Prometheus recording rules unit-tested via promtool.
           </p>
+          <p class="case-study__metrics">99.9% / 28d @ 200ms p95 · 3-service mesh · 4 dashboards · 8-tab UI · burn-rate alerting · chaos auto-verified</p>
+          <a class="case-study__repo" href="https://github.com/SMMandora/SLO-Control-Center" target="_blank" rel="noopener">View repo ↗</a>
         </div>
 
         <div class="case-study__diagram">
-          <svg viewBox="0 0 400 320" class="arch-diagram" role="img" aria-label="Architecture: mobile clients through API gateway into microservices, backed by data and observability layers">
-            <!-- Mobile clients -->
-            <rect x="120" y="10" width="160" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-            <text x="200" y="33" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a8a8" text-anchor="middle">Mobile clients</text>
+          <svg viewBox="0 0 400 320" class="arch-diagram" role="img" aria-label="SLO three-service mesh: k6 drives orders-api, payments-worker and notification-svc over Redis streams; all scrape into Prometheus recording rules feeding a React SLO Control Center, Grafonnet Grafana dashboards, and Alertmanager, with OpenTelemetry to Tempo and Loki">
+            <!-- k6 -->
+            <rect x="160" y="6" width="80" height="20" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+            <text x="200" y="20" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">k6 load</text>
+            <line x1="200" y1="26" x2="200" y2="38" stroke="#2A3548" stroke-width="1"/>
 
-            <!-- Arrow -->
-            <line x1="200" y1="46" x2="200" y2="74" stroke="#d8ff3c" stroke-width="1.5"/>
+            <!-- 3-service mesh -->
+            <rect x="16" y="38" width="116" height="30" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+            <text x="74" y="57" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">orders-api · Go</text>
+            <rect x="142" y="38" width="116" height="30" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+            <text x="200" y="57" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">payments · Py</text>
+            <rect x="268" y="38" width="116" height="30" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+            <text x="326" y="57" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">notify-svc · Go</text>
+            <line x1="132" y1="53" x2="142" y2="53" stroke="#2F6BFF" stroke-width="1.5"/>
+            <line x1="258" y1="53" x2="268" y2="53" stroke="#2F6BFF" stroke-width="1.5"/>
 
-            <!-- API Gateway -->
-            <rect x="140" y="76" width="120" height="36" rx="6" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-            <text x="200" y="99" font-family="JetBrains Mono, monospace" font-size="11" fill="#d8ff3c" text-anchor="middle">API Gateway</text>
+            <!-- converge to Prometheus -->
+            <line x1="74" y1="68" x2="74" y2="80" stroke="#2A3548" stroke-width="1"/>
+            <line x1="200" y1="68" x2="200" y2="80" stroke="#2A3548" stroke-width="1"/>
+            <line x1="326" y1="68" x2="326" y2="80" stroke="#2A3548" stroke-width="1"/>
+            <line x1="74" y1="80" x2="326" y2="80" stroke="#2A3548" stroke-width="1"/>
+            <line x1="200" y1="80" x2="200" y2="94" stroke="#2F6BFF" stroke-width="1.5"/>
 
-            <!-- Arrow -->
-            <line x1="200" y1="112" x2="200" y2="138" stroke="#d8ff3c" stroke-width="1.5"/>
-            <line x1="60" y1="138" x2="340" y2="138" stroke="#2a2a2a" stroke-width="1"/>
-            <line x1="60" y1="138" x2="60" y2="158" stroke="#2a2a2a" stroke-width="1"/>
-            <line x1="153" y1="138" x2="153" y2="158" stroke="#2a2a2a" stroke-width="1"/>
-            <line x1="247" y1="138" x2="247" y2="158" stroke="#2a2a2a" stroke-width="1"/>
-            <line x1="340" y1="138" x2="340" y2="158" stroke="#2a2a2a" stroke-width="1"/>
+            <!-- Prometheus -->
+            <rect x="60" y="94" width="280" height="42" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+            <text x="200" y="111" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle">Prometheus · recording rules</text>
+            <text x="200" y="127" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#5A6478" text-anchor="middle">SLI · error budget · burn rate · p95</text>
 
-            <!-- Services row -->
-            <rect x="20" y="158" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-            <text x="60" y="181" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Game</text>
+            <!-- split to 3 surfaces -->
+            <line x1="200" y1="136" x2="200" y2="160" stroke="#2F6BFF" stroke-width="1.5"/>
+            <line x1="74" y1="160" x2="326" y2="160" stroke="#2A3548" stroke-width="1"/>
+            <line x1="74" y1="160" x2="74" y2="170" stroke="#2A3548" stroke-width="1"/>
+            <line x1="200" y1="160" x2="200" y2="170" stroke="#2A3548" stroke-width="1"/>
+            <line x1="326" y1="160" x2="326" y2="170" stroke="#2A3548" stroke-width="1"/>
 
-            <rect x="113" y="158" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-            <text x="153" y="181" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Auth</text>
+            <!-- 3 outputs -->
+            <rect x="14" y="170" width="120" height="38" rx="6" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+            <text x="74" y="187" font-family="JetBrains Mono, monospace" font-size="8" fill="#2F6BFF" text-anchor="middle">SLO Control Center</text>
+            <text x="74" y="199" font-family="JetBrains Mono, monospace" font-size="7.5" fill="#5A6478" text-anchor="middle">React · 8 tabs</text>
+            <rect x="146" y="170" width="108" height="38" rx="6" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+            <text x="200" y="187" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#2F6BFF" text-anchor="middle">Grafana</text>
+            <text x="200" y="199" font-family="JetBrains Mono, monospace" font-size="7.5" fill="#5A6478" text-anchor="middle">Grafonnet · 4</text>
+            <rect x="266" y="170" width="120" height="38" rx="6" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+            <text x="326" y="187" font-family="JetBrains Mono, monospace" font-size="8" fill="#2F6BFF" text-anchor="middle">Alertmanager</text>
+            <text x="326" y="199" font-family="JetBrains Mono, monospace" font-size="7.5" fill="#5A6478" text-anchor="middle">severity routed</text>
 
-            <rect x="207" y="158" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-            <text x="247" y="181" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Leaderboard</text>
-
-            <rect x="300" y="158" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-            <text x="340" y="181" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Payments</text>
-
-            <!-- Arrows down to data layer -->
-            <line x1="110" y1="194" x2="110" y2="226" stroke="#2a2a2a" stroke-width="1"/>
-            <line x1="290" y1="194" x2="290" y2="226" stroke="#2a2a2a" stroke-width="1"/>
-
-            <!-- Data + observability -->
-            <rect x="30" y="226" width="160" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-            <text x="110" y="249" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">PostgreSQL · Redis</text>
-
-            <rect x="210" y="226" width="180" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-            <text x="300" y="249" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Grafana · SLI/SLO · Alerts</text>
-
-            <!-- Foundation -->
-            <text x="200" y="295" font-family="JetBrains Mono, monospace" font-size="9" fill="#707070" letter-spacing="2" text-anchor="middle">AWS · KUBERNETES</text>
+            <!-- foundation -->
+            <text x="200" y="246" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">OTel → Tempo + Loki · trace-correlated</text>
+            <text x="200" y="300" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" letter-spacing="1.5" text-anchor="middle">DOCKER COMPOSE + KIND K8S · CHAOS AUTO-VERIFIED</text>
           </svg>
         </div>
       </div>
@@ -241,228 +401,52 @@
     <ul class="card-grid">
       <li>
         <article class="project-card" data-project-card data-reveal>
-          <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-1-detail">
-            <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="Data flow: DublinBikes and Sonitus APIs into Django/Postgres backend, K8s microservices, React dashboard">
-              <rect x="40" y="14" width="160" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="29" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">DublinBikes · Sonitus APIs</text>
-
-              <line x1="120" y1="36" x2="120" y2="50" stroke="#d8ff3c" stroke-width="1.5"/>
-
-              <rect x="60" y="50" width="120" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="65" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Django · PostgreSQL</text>
-
-              <line x1="120" y1="72" x2="120" y2="86" stroke="#d8ff3c" stroke-width="1.5"/>
-
-              <rect x="60" y="86" width="120" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="101" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">K8s microservices</text>
-
-              <line x1="120" y1="108" x2="120" y2="122" stroke="#d8ff3c" stroke-width="1.5"/>
-
-              <rect x="60" y="122" width="120" height="22" rx="5" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <text x="120" y="137" font-family="JetBrains Mono, monospace" font-size="10" fill="#d8ff3c" text-anchor="middle">React dashboard</text>
-
-              <text x="120" y="162" font-family="JetBrains Mono, monospace" font-size="8" fill="#707070" letter-spacing="1.5" text-anchor="middle">REAL-TIME ANALYTICS</text>
-            </svg>
-            <span class="project-card__num">01</span>
-            <h3 class="project-card__title">Sustainable City Management</h3>
-            <p class="project-card__brief">
-              Real-time data engineering platform for Dublin city infrastructure. Live ingestion
-              from DublinBikes and Sonitus APIs into a scalable backend with containerized
-              microservices and a user-focused frontend.
-            </p>
-            <ul class="tag-list tag-list--sm">
-              <li>Django</li><li>PostgreSQL</li><li>Docker</li><li>K8s</li><li>Jenkins</li><li>React</li>
-            </ul>
-            <span class="project-card__result">▸ high-volume real-time analytics</span>
-            <span class="project-card__chev" aria-hidden="true">→</span>
-          </button>
-          <div class="project-card__detail" id="proj-1-detail">
-            <div class="project-card__detail-inner">
-              <h4>Context</h4>
-              <p>City infrastructure data lives across heterogeneous APIs with inconsistent schemas and varying uptime.</p>
-              <h4>Approach</h4>
-              <p>Django + PostgreSQL backend for ingestion, validation, and querying. Containerized into K8s microservices with automated health checks and regression testing. Jenkins CI/CD with quality gates. React + Django templates for live data visualization.</p>
-              <h4>Outcome</h4>
-              <p>End-to-end pipeline tested at scale across high-volume streams, with structured unit/integration tests across all services.</p>
-            </div>
-          </div>
-        </article>
-      </li>
-
-      <li>
-        <article class="project-card" data-project-card data-reveal data-reveal-delay="80">
-          <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-2-detail">
-            <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="Transport ML pipeline: traveler and environmental data through feature pipeline into RF, SVM, XGBoost ensemble, producing mode forecasts">
-              <rect x="40" y="14" width="160" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="29" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Traveler · environment</text>
-
-              <line x1="120" y1="36" x2="120" y2="50" stroke="#d8ff3c" stroke-width="1.5"/>
-
-              <rect x="60" y="50" width="120" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="65" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">PySpark · sklearn</text>
-
-              <line x1="120" y1="72" x2="120" y2="80" stroke="#d8ff3c" stroke-width="1.5"/>
-              <line x1="50" y1="80" x2="190" y2="80" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="50" y1="80" x2="50" y2="86" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="80" x2="120" y2="86" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="190" y1="80" x2="190" y2="86" stroke="#2a2a2a" stroke-width="1"/>
-
-              <rect x="20" y="86" width="60" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="50" y="101" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">RF</text>
-
-              <rect x="90" y="86" width="60" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="101" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">SVM</text>
-
-              <rect x="160" y="86" width="60" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="190" y="101" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">XGB</text>
-
-              <line x1="50" y1="108" x2="50" y2="114" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="108" x2="120" y2="114" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="190" y1="108" x2="190" y2="114" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="50" y1="114" x2="190" y2="114" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="114" x2="120" y2="122" stroke="#d8ff3c" stroke-width="1.5"/>
-
-              <rect x="60" y="122" width="120" height="22" rx="5" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <text x="120" y="137" font-family="JetBrains Mono, monospace" font-size="10" fill="#d8ff3c" text-anchor="middle">Mode forecast</text>
-
-              <text x="120" y="162" font-family="JetBrains Mono, monospace" font-size="8" fill="#707070" letter-spacing="1.5" text-anchor="middle">GBDT · SUMO</text>
-            </svg>
-            <span class="project-card__num">02</span>
-            <h3 class="project-card__title">ML-Driven Urban Transport Forecasting</h3>
-            <p class="project-card__brief">
-              GBDT-based transport mode prediction system in the SUMO simulation environment.
-              End-to-end ML pipeline with hyperparameter tuning, model monitoring, and automated
-              regression testing.
-            </p>
-            <ul class="tag-list tag-list--sm">
-              <li>PySpark</li><li>scikit-learn</li><li>XGBoost</li><li>SUMO</li><li>Python</li>
-            </ul>
-            <span class="project-card__result">▸ production-ready forecasting models</span>
-            <span class="project-card__chev" aria-hidden="true">→</span>
-          </button>
-          <div class="project-card__detail" id="proj-2-detail">
-            <div class="project-card__detail-inner">
-              <h4>Context</h4>
-              <p>Urban transport planning needs accurate mode-choice forecasts under varying traveler preferences and environmental factors.</p>
-              <h4>Approach</h4>
-              <p>End-to-end ML pipeline using PySpark and scikit-learn. Trained Multinomial Logistic Regression, Random Forest, SVM, and XGBoost. Hyperparameter tuning via GridSearchCV. Automated regression testing to catch model drift across dataset updates.</p>
-              <h4>Outcome</h4>
-              <p>Validated forecasting outputs across iterations, with systematic performance benchmarking ensuring reliability for urban planning use.</p>
-            </div>
-          </div>
-        </article>
-      </li>
-
-      <li>
-        <article class="project-card" data-project-card data-reveal data-reveal-delay="160">
-          <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-3-detail">
-            <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="Inference loop: video stream into PyTorch/TF model paired with RAG retrieval, feeding LLM anomaly detection and real-time flagging">
-              <rect x="60" y="14" width="120" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="29" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">Video stream</text>
-
-              <line x1="120" y1="36" x2="120" y2="46" stroke="#d8ff3c" stroke-width="1.5"/>
-              <line x1="65" y1="46" x2="175" y2="46" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="65" y1="46" x2="65" y2="54" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="175" y1="46" x2="175" y2="54" stroke="#2a2a2a" stroke-width="1"/>
-
-              <rect x="20" y="54" width="90" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="65" y="69" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">PyTorch · TF</text>
-
-              <rect x="130" y="54" width="90" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="175" y="69" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">RAG retrieval</text>
-
-              <line x1="110" y1="65" x2="130" y2="65" stroke="#d8ff3c" stroke-width="1"/>
-              <polyline points="114,62 110,65 114,68" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <polyline points="126,62 130,65 126,68" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-
-              <line x1="65" y1="76" x2="65" y2="84" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="175" y1="76" x2="175" y2="84" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="65" y1="84" x2="175" y2="84" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="84" x2="120" y2="92" stroke="#d8ff3c" stroke-width="1.5"/>
-
-              <rect x="40" y="92" width="160" height="22" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="107" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">LLM anomaly detection</text>
-
-              <line x1="120" y1="114" x2="120" y2="128" stroke="#d8ff3c" stroke-width="1.5"/>
-
-              <rect x="60" y="128" width="120" height="22" rx="5" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <text x="120" y="143" font-family="JetBrains Mono, monospace" font-size="10" fill="#d8ff3c" text-anchor="middle">Real-time flag</text>
-
-              <text x="120" y="165" font-family="JetBrains Mono, monospace" font-size="8" fill="#707070" letter-spacing="1.5" text-anchor="middle">AGENTIC AI · SLA</text>
-            </svg>
-            <span class="project-card__num">03</span>
-            <h3 class="project-card__title">Online Proctoring AI</h3>
-            <p class="project-card__brief">
-              Real-time agentic AI inference system for secure online proctoring.
-              RAG-based retrieval and LLM-driven anomaly detection over large-scale data pipelines.
-            </p>
-            <ul class="tag-list tag-list--sm">
-              <li>PyTorch</li><li>TensorFlow</li><li>scikit-learn</li><li>LangChain</li><li>Python</li>
-            </ul>
-            <span class="project-card__result">▸ scalable real-time inference at SLA</span>
-            <span class="project-card__chev" aria-hidden="true">→</span>
-          </button>
-          <div class="project-card__detail" id="proj-3-detail">
-            <div class="project-card__detail-inner">
-              <h4>Context</h4>
-              <p>Online proctoring needs reliable anomaly detection without sacrificing user experience or burning latency budget.</p>
-              <h4>Approach</h4>
-              <p>Real-time inference combining PyTorch + TensorFlow models. RAG-based retrieval patterns and LLM-driven anomaly detection. Content moderation pipelines with SLA-based processing and BI-driven analytics.</p>
-              <h4>Outcome</h4>
-              <p>Optimized inference pipeline for scalability; systematic benchmarking ensured production-grade throughput.</p>
-            </div>
-          </div>
-        </article>
-      </li>
-
-      <li>
-        <article class="project-card" data-project-card data-reveal>
           <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-4-detail">
             <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="AI code review flow: GitHub PR event into LangGraph agent grounded by pgvector RAG, fanning out to four parallel checks, converging to an inline PR review">
-              <rect x="55" y="10" width="130" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">GitHub PR event</text>
+              <rect x="55" y="10" width="130" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle">GitHub PR event</text>
 
-              <line x1="120" y1="30" x2="120" y2="40" stroke="#d8ff3c" stroke-width="1.5"/>
+              <line x1="120" y1="30" x2="120" y2="40" stroke="#2F6BFF" stroke-width="1.5"/>
 
-              <rect x="22" y="40" width="105" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="74" y="54" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">LangGraph · Claude</text>
+              <rect x="22" y="40" width="105" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="74" y="54" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">LangGraph · Claude</text>
 
-              <rect x="142" y="40" width="76" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="180" y="54" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">pgvector RAG</text>
+              <rect x="142" y="40" width="76" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="180" y="54" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">pgvector RAG</text>
 
-              <line x1="127" y1="50" x2="142" y2="50" stroke="#d8ff3c" stroke-width="1"/>
-              <polyline points="131,47 127,50 131,53" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <polyline points="138,47 142,50 138,53" fill="none" stroke="#d8ff3c" stroke-width="1"/>
+              <line x1="127" y1="50" x2="142" y2="50" stroke="#2F6BFF" stroke-width="1"/>
+              <polyline points="131,47 127,50 131,53" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+              <polyline points="138,47 142,50 138,53" fill="none" stroke="#2F6BFF" stroke-width="1"/>
 
-              <line x1="74" y1="60" x2="74" y2="66" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="39" y1="66" x2="201" y2="66" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="39" y1="66" x2="39" y2="72" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="93" y1="66" x2="93" y2="72" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="147" y1="66" x2="147" y2="72" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="201" y1="66" x2="201" y2="72" stroke="#2a2a2a" stroke-width="1"/>
+              <line x1="74" y1="60" x2="74" y2="66" stroke="#2A3548" stroke-width="1"/>
+              <line x1="39" y1="66" x2="201" y2="66" stroke="#2A3548" stroke-width="1"/>
+              <line x1="39" y1="66" x2="39" y2="72" stroke="#2A3548" stroke-width="1"/>
+              <line x1="93" y1="66" x2="93" y2="72" stroke="#2A3548" stroke-width="1"/>
+              <line x1="147" y1="66" x2="147" y2="72" stroke="#2A3548" stroke-width="1"/>
+              <line x1="201" y1="66" x2="201" y2="72" stroke="#2A3548" stroke-width="1"/>
 
-              <rect x="15" y="72" width="48" height="18" rx="4" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="39" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#a8a8a8" text-anchor="middle">corr</text>
-              <rect x="69" y="72" width="48" height="18" rx="4" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="93" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#a8a8a8" text-anchor="middle">sec</text>
-              <rect x="123" y="72" width="48" height="18" rx="4" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="147" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#a8a8a8" text-anchor="middle">style</text>
-              <rect x="177" y="72" width="48" height="18" rx="4" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="201" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#a8a8a8" text-anchor="middle">test</text>
+              <rect x="15" y="72" width="48" height="18" rx="4" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="39" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">corr</text>
+              <rect x="69" y="72" width="48" height="18" rx="4" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="93" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">sec</text>
+              <rect x="123" y="72" width="48" height="18" rx="4" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="147" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">style</text>
+              <rect x="177" y="72" width="48" height="18" rx="4" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="201" y="84" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">test</text>
 
-              <line x1="39" y1="90" x2="39" y2="96" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="93" y1="90" x2="93" y2="96" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="147" y1="90" x2="147" y2="96" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="201" y1="90" x2="201" y2="96" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="39" y1="96" x2="201" y2="96" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="96" x2="120" y2="106" stroke="#d8ff3c" stroke-width="1.5"/>
+              <line x1="39" y1="90" x2="39" y2="96" stroke="#2A3548" stroke-width="1"/>
+              <line x1="93" y1="90" x2="93" y2="96" stroke="#2A3548" stroke-width="1"/>
+              <line x1="147" y1="90" x2="147" y2="96" stroke="#2A3548" stroke-width="1"/>
+              <line x1="201" y1="90" x2="201" y2="96" stroke="#2A3548" stroke-width="1"/>
+              <line x1="39" y1="96" x2="201" y2="96" stroke="#2A3548" stroke-width="1"/>
+              <line x1="120" y1="96" x2="120" y2="106" stroke="#2F6BFF" stroke-width="1.5"/>
 
-              <rect x="55" y="106" width="130" height="20" rx="5" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <text x="120" y="120" font-family="JetBrains Mono, monospace" font-size="10" fill="#d8ff3c" text-anchor="middle">Inline PR review</text>
+              <rect x="55" y="106" width="130" height="20" rx="5" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+              <text x="120" y="120" font-family="JetBrains Mono, monospace" font-size="10" fill="#2F6BFF" text-anchor="middle">Inline PR review</text>
 
-              <text x="120" y="150" font-family="JetBrains Mono, monospace" font-size="8" fill="#707070" letter-spacing="1.5" text-anchor="middle">CLAUDE API · RAG · EVALS</text>
+              <text x="120" y="150" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" letter-spacing="1.5" text-anchor="middle">CLAUDE API · RAG · EVALS</text>
             </svg>
-            <span class="project-card__num">04</span>
+            <span class="project-card__num">01</span>
             <h3 class="project-card__title">AI Code Review Agent</h3>
             <p class="project-card__brief">
               Autonomous PR reviewer that grounds LLM reasoning in the repo's own conventions
@@ -470,21 +454,22 @@
               inline GitHub review comments.
             </p>
             <ul class="tag-list tag-list--sm">
-              <li>Python</li><li>FastAPI</li><li>LangGraph</li><li>Claude API</li><li>pgvector</li>
+              <li>Python</li><li>FastAPI</li><li>LangGraph</li><li>Claude API</li><li>pgvector</li><li>Docker</li>
             </ul>
-            <span class="project-card__result">▸ RAG-grounded parallel checks</span>
+            <span class="project-card__result">▸ p95 &lt; 30s · &lt; $0.50/review · 80%+ eval</span>
             <span class="project-card__chev" aria-hidden="true">→</span>
           </button>
           <div class="project-card__detail" id="proj-4-detail">
             <div class="project-card__detail-inner">
               <h4>Context</h4>
               <p>Code review is the bottleneck on small teams, and generic AI reviewers miss repo-specific conventions.</p>
-              <h4>Approach</h4>
+              <h4>Architecture &amp; decisions</h4>
               <p>GitHub webhook into an HMAC-validated FastAPI receiver. A LangGraph state machine fans out to four parallel check nodes, grounded by pgvector retrieval over past PR comments and style guides. Findings dedupe into one consolidated GitHub review.</p>
-              <h4>Target</h4>
-              <p>p95 review latency under 30s on a 200-line diff, under $0.50 per review, and 80%+ finding-match against a hand-labeled eval suite.</p>
+              <h4>Impact</h4>
+              <p>Ships as one Docker container — FastAPI webhook, in-process worker, LangGraph agent, and a dashboard — with Postgres/pgvector its only dependency. Hits a p95 review under 30s on a 200-line diff at under $0.50 per review, gated by an eval suite of hand-labeled PRs (80%+ findings match) and configured per-repo via <code>.codereview.yml</code>.</p>
             </div>
           </div>
+          <a class="project-card__repo" href="https://github.com/SMMandora/AI-Code-Review-Agent" target="_blank" rel="noopener">View repo ↗</a>
         </article>
       </li>
 
@@ -492,36 +477,36 @@
         <article class="project-card" data-project-card data-reveal data-reveal-delay="80">
           <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-5-detail">
             <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="Chat service architecture: WebSocket clients into replicated Go gateways, Redis pub/sub fan-out, and a worker batching writes to PostgreSQL">
-              <rect x="70" y="10" width="100" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">WS clients</text>
+              <rect x="70" y="10" width="100" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="24" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle">WS clients</text>
 
-              <line x1="120" y1="30" x2="120" y2="36" stroke="#d8ff3c" stroke-width="1.5"/>
-              <line x1="75" y1="36" x2="165" y2="36" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="75" y1="36" x2="75" y2="42" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="165" y1="36" x2="165" y2="42" stroke="#2a2a2a" stroke-width="1"/>
+              <line x1="120" y1="30" x2="120" y2="36" stroke="#2F6BFF" stroke-width="1.5"/>
+              <line x1="75" y1="36" x2="165" y2="36" stroke="#2A3548" stroke-width="1"/>
+              <line x1="75" y1="36" x2="75" y2="42" stroke="#2A3548" stroke-width="1"/>
+              <line x1="165" y1="36" x2="165" y2="42" stroke="#2A3548" stroke-width="1"/>
 
-              <rect x="40" y="42" width="70" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="75" y="56" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">gateway·go</text>
+              <rect x="40" y="42" width="70" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="75" y="56" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">gateway·go</text>
 
-              <rect x="130" y="42" width="70" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="165" y="56" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">gateway·go</text>
+              <rect x="130" y="42" width="70" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="165" y="56" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">gateway·go</text>
 
-              <line x1="75" y1="62" x2="75" y2="68" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="165" y1="62" x2="165" y2="68" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="75" y1="68" x2="165" y2="68" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="68" x2="120" y2="74" stroke="#d8ff3c" stroke-width="1.5"/>
+              <line x1="75" y1="62" x2="75" y2="68" stroke="#2A3548" stroke-width="1"/>
+              <line x1="165" y1="62" x2="165" y2="68" stroke="#2A3548" stroke-width="1"/>
+              <line x1="75" y1="68" x2="165" y2="68" stroke="#2A3548" stroke-width="1"/>
+              <line x1="120" y1="68" x2="120" y2="74" stroke="#2F6BFF" stroke-width="1.5"/>
 
-              <rect x="60" y="74" width="120" height="20" rx="5" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <text x="120" y="88" font-family="JetBrains Mono, monospace" font-size="10" fill="#d8ff3c" text-anchor="middle">Redis pub/sub</text>
+              <rect x="60" y="74" width="120" height="20" rx="5" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+              <text x="120" y="88" font-family="JetBrains Mono, monospace" font-size="10" fill="#2F6BFF" text-anchor="middle">Redis pub/sub</text>
 
-              <line x1="120" y1="94" x2="120" y2="106" stroke="#d8ff3c" stroke-width="1.5"/>
+              <line x1="120" y1="94" x2="120" y2="106" stroke="#2F6BFF" stroke-width="1.5"/>
 
-              <rect x="45" y="106" width="150" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="120" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle">worker · PostgreSQL</text>
+              <rect x="45" y="106" width="150" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="120" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle">worker · PostgreSQL</text>
 
-              <text x="120" y="150" font-family="JetBrains Mono, monospace" font-size="8" fill="#707070" letter-spacing="1.5" text-anchor="middle">10K CONN · P99 &lt; 50MS</text>
+              <text x="120" y="150" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" letter-spacing="1.5" text-anchor="middle">10K CONN · P99 &lt; 50MS</text>
             </svg>
-            <span class="project-card__num">05</span>
+            <span class="project-card__num">02</span>
             <h3 class="project-card__title">Real-time Chat Service in Go</h3>
             <p class="project-card__brief">
               Horizontally scalable chat backend — stateless WebSocket gateways with Redis
@@ -529,89 +514,185 @@
               replay-on-reconnect.
             </p>
             <ul class="tag-list tag-list--sm">
-              <li>Go</li><li>Redis</li><li>PostgreSQL</li><li>WebSockets</li><li>K8s</li>
+              <li>Go</li><li>Redis</li><li>PostgreSQL</li><li>WebSockets</li><li>Kubernetes</li><li>Prometheus</li>
             </ul>
-            <span class="project-card__result">▸ horizontally scalable fan-out</span>
+            <span class="project-card__result">▸ 10k conns · p99 &lt; 50ms · HPA 2–20</span>
             <span class="project-card__chev" aria-hidden="true">→</span>
           </button>
           <div class="project-card__detail" id="proj-5-detail">
             <div class="project-card__detail-inner">
               <h4>Context</h4>
               <p>Real-time fan-out at scale is the canonical distributed-systems problem: connections are stateful, everything else shouldn't be.</p>
-              <h4>Approach</h4>
+              <h4>Architecture &amp; decisions</h4>
               <p>Stateless Go gateways behind an L4 balancer with Redis pub/sub for cross-replica fan-out. A persistence worker batches writes to Postgres. Token-bucket rate limiting, presence via Redis sorted sets, graceful drain on shutdown.</p>
-              <h4>Target</h4>
-              <p>10k concurrent connections per gateway replica with p99 fan-out latency under 50ms, verified by k6 load tests and traced end-to-end with OpenTelemetry.</p>
+              <h4>Impact</h4>
+              <p>Presence, typing, auth, history replay, and 30 msg/min token-bucket rate limiting — instrumented with Prometheus metrics and OpenTelemetry traces to Jaeger. Kubernetes manifests autoscale on connections-per-pod (HPA 2–20), and k6 ramps to 10k concurrent connections against a p99 fan-out target under 50ms.</p>
             </div>
           </div>
+          <a class="project-card__repo" href="https://github.com/SMMandora/Real-time_Pub-Sub_Chat_Service_in_Go" target="_blank" rel="noopener">View repo ↗</a>
         </article>
       </li>
 
       <li>
         <article class="project-card" data-project-card data-reveal data-reveal-delay="160">
-          <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-6-detail">
-            <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="Observability stack: three chaos-instrumented services feeding Prometheus, Loki, and Tempo, rendered in Grafana SLO dashboards with burn-rate alerts linking to runbooks">
-              <rect x="16" y="10" width="64" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="48" y="24" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">orders</text>
-              <rect x="88" y="10" width="64" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="24" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">payments</text>
-              <rect x="160" y="10" width="64" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="192" y="24" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">notify</text>
+          <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-3-detail">
+            <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="Hybrid proctoring: browser MediaPipe sends events over WebSocket to a FastAPI backend running YOLOv8, ArcFace and Silero VAD, producing a live suspicion score">
+              <rect x="50" y="10" width="140" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="24" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">Browser · MediaPipe</text>
 
-              <line x1="48" y1="30" x2="48" y2="36" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="30" x2="120" y2="36" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="192" y1="30" x2="192" y2="36" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="48" y1="36" x2="192" y2="36" stroke="#2a2a2a" stroke-width="1"/>
-              <line x1="120" y1="36" x2="120" y2="42" stroke="#d8ff3c" stroke-width="1.5"/>
+              <line x1="120" y1="30" x2="120" y2="40" stroke="#2F6BFF" stroke-width="1.5"/>
 
-              <rect x="40" y="42" width="160" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="56" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">Prometheus · Loki · Tempo</text>
+              <rect x="80" y="40" width="80" height="20" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="54" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A94A6" text-anchor="middle">WebSocket</text>
 
-              <line x1="120" y1="62" x2="120" y2="74" stroke="#d8ff3c" stroke-width="1.5"/>
+              <line x1="120" y1="60" x2="120" y2="66" stroke="#2F6BFF" stroke-width="1.5"/>
+              <line x1="65" y1="66" x2="175" y2="66" stroke="#2A3548" stroke-width="1"/>
+              <line x1="65" y1="66" x2="65" y2="72" stroke="#2A3548" stroke-width="1"/>
+              <line x1="175" y1="66" x2="175" y2="72" stroke="#2A3548" stroke-width="1"/>
 
-              <rect x="45" y="74" width="150" height="20" rx="5" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-              <text x="120" y="88" font-family="JetBrains Mono, monospace" font-size="10" fill="#d8ff3c" text-anchor="middle">Grafana SLO boards</text>
+              <rect x="18" y="72" width="94" height="22" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="65" y="86" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">YOLOv8 · ArcFace</text>
 
-              <line x1="120" y1="94" x2="120" y2="106" stroke="#d8ff3c" stroke-width="1.5"/>
+              <rect x="128" y="72" width="94" height="22" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="175" y="86" font-family="JetBrains Mono, monospace" font-size="8.5" fill="#8A94A6" text-anchor="middle">Silero VAD</text>
 
-              <rect x="40" y="106" width="160" height="20" rx="5" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-              <text x="120" y="120" font-family="JetBrains Mono, monospace" font-size="9" fill="#a8a8a8" text-anchor="middle">burn-rate alerts · runbooks</text>
+              <line x1="65" y1="94" x2="65" y2="100" stroke="#2A3548" stroke-width="1"/>
+              <line x1="175" y1="94" x2="175" y2="100" stroke="#2A3548" stroke-width="1"/>
+              <line x1="65" y1="100" x2="175" y2="100" stroke="#2A3548" stroke-width="1"/>
+              <line x1="120" y1="100" x2="120" y2="108" stroke="#2F6BFF" stroke-width="1.5"/>
 
-              <text x="120" y="150" font-family="JetBrains Mono, monospace" font-size="8" fill="#707070" letter-spacing="1.5" text-anchor="middle">ERROR BUDGETS · CHAOS-TESTED</text>
+              <rect x="50" y="108" width="140" height="22" rx="5" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+              <text x="120" y="122" font-family="JetBrains Mono, monospace" font-size="10" fill="#2F6BFF" text-anchor="middle">Suspicion score</text>
+
+              <text x="120" y="150" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" letter-spacing="1.5" text-anchor="middle">REAL-TIME CV + AUDIO</text>
             </svg>
-            <span class="project-card__num">06</span>
-            <h3 class="project-card__title">SLO Reference Observability Stack</h3>
+            <span class="project-card__num">03</span>
+            <h3 class="project-card__title">AI Online Proctoring</h3>
             <p class="project-card__brief">
-              A runnable SRE reference: three chaos-instrumented microservices with SLO
-              dashboards, error-budget tracking, burn-rate alerts, and runbooks — everything
-              as code.
+              Real-time exam proctoring from webcam + mic — gaze, head-pose, talking,
+              multi-person, phone, and ID-match detection in the browser, with heavier
+              vision and audio models on the backend.
             </p>
             <ul class="tag-list tag-list--sm">
-              <li>Prometheus</li><li>Grafana</li><li>Loki</li><li>Tempo</li><li>Go</li><li>k6</li>
+              <li>TypeScript</li><li>React</li><li>MediaPipe</li><li>YOLOv8</li><li>InsightFace</li><li>FastAPI</li><li>Whisper</li>
             </ul>
-            <span class="project-card__result">▸ SLOs &amp; error budgets as code</span>
+            <span class="project-card__result">▸ ~15 FPS · ~5–20 KB/s uplink · evidence clips</span>
             <span class="project-card__chev" aria-hidden="true">→</span>
           </button>
-          <div class="project-card__detail" id="proj-6-detail">
+          <div class="project-card__detail" id="proj-3-detail">
             <div class="project-card__detail-inner">
               <h4>Context</h4>
-              <p>Most observability advice is slideware. This is a clonable stack that demonstrates SLO practice end-to-end on real services.</p>
-              <h4>Approach</h4>
-              <p>Three services with injectable failure modes feed Prometheus, Loki, and Tempo. Grafonnet-rendered dashboards track SLIs, error budgets, and 1h/6h/24h burn rates. Alerts are unit-tested with promtool, and each links to its runbook.</p>
-              <h4>Target</h4>
-              <p>Chaos scenarios that auto-verify the right alert fires — kill pods, inject latency, fill disks — with the full stack up locally in under two minutes.</p>
+              <p>Online exams need trustworthy proctoring that runs in real time and stays bandwidth-cheap — without streaming raw video to a server.</p>
+              <h4>Architecture &amp; decisions</h4>
+              <p>The browser (React + Vite + TypeScript) runs MediaPipe Face Landmarker at ~15 FPS and emits deduplicated events plus occasional keyframes over WebSocket (~5–20 KB/s). A FastAPI backend runs YOLOv8 for objects and person-count, InsightFace ArcFace for identity rechecks, and Silero VAD with Whisper on audio.</p>
+              <h4>Impact</h4>
+              <p>Detects gaze, head pose, talking, multi-person, phones, tab-switching, and identity mismatch — driving a live proctor dashboard with auto-captured evidence clips and a per-session suspicion score, hardened with Fernet-encrypted ID storage and per-IP rate limiting.</p>
             </div>
           </div>
+          <a class="project-card__repo" href="https://github.com/SMMandora/online-proctoring-using-ai" target="_blank" rel="noopener">View repo ↗</a>
         </article>
+      </li>
+
+      <li>
+        <article class="project-card" data-project-card data-reveal>
+          <button type="button" class="project-card__trigger" data-card-trigger aria-expanded="false" aria-controls="proj-1-detail">
+            <svg viewBox="0 0 240 170" class="arch-diagram arch-diagram--sm" role="img" aria-label="Data flow: DublinBikes and Sonitus APIs into Django/Postgres backend, K8s microservices, React dashboard">
+              <rect x="40" y="14" width="160" height="22" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="29" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle">DublinBikes · Sonitus APIs</text>
+
+              <line x1="120" y1="36" x2="120" y2="50" stroke="#2F6BFF" stroke-width="1.5"/>
+
+              <rect x="60" y="50" width="120" height="22" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="65" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle">Django · PostgreSQL</text>
+
+              <line x1="120" y1="72" x2="120" y2="86" stroke="#2F6BFF" stroke-width="1.5"/>
+
+              <rect x="60" y="86" width="120" height="22" rx="5" fill="none" stroke="#2A3548" stroke-width="1"/>
+              <text x="120" y="101" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle">K8s microservices</text>
+
+              <line x1="120" y1="108" x2="120" y2="122" stroke="#2F6BFF" stroke-width="1.5"/>
+
+              <rect x="60" y="122" width="120" height="22" rx="5" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+              <text x="120" y="137" font-family="JetBrains Mono, monospace" font-size="10" fill="#2F6BFF" text-anchor="middle">React dashboard</text>
+
+              <text x="120" y="162" font-family="JetBrains Mono, monospace" font-size="8" fill="#5A6478" letter-spacing="1.5" text-anchor="middle">REAL-TIME ANALYTICS</text>
+            </svg>
+            <span class="project-card__num">04</span>
+            <h3 class="project-card__title">Sustainable City Management</h3>
+            <p class="project-card__brief">
+              Real-time data platform for Dublin city infrastructure — live ingestion from
+              DublinBikes, Sonitus noise sensors, and OpenWeather, served over REST + SSE
+              into three live React dashboards.
+            </p>
+            <ul class="tag-list tag-list--sm">
+              <li>Django</li><li>DRF</li><li>Celery</li><li>PostgreSQL</li><li>Redis</li><li>React</li><li>Leaflet</li>
+            </ul>
+            <span class="project-card__result">▸ 3 live sources · SSE · kind K8s · GH Actions</span>
+            <span class="project-card__chev" aria-hidden="true">→</span>
+          </button>
+          <div class="project-card__detail" id="proj-1-detail">
+            <div class="project-card__detail-inner">
+              <h4>Context</h4>
+              <p>City infrastructure data lives across heterogeneous public APIs with inconsistent schemas and varying uptime.</p>
+              <h4>Architecture &amp; decisions</h4>
+              <p>Django 5 + DRF + Celery backend on PostgreSQL and Redis handles ingestion, validation, and querying; Server-Sent Events push live updates to a React + Leaflet + Recharts frontend. Containerized with health checks, GitHub Actions CI/CD, and Grafana + Prometheus observability.</p>
+              <h4>Impact</h4>
+              <p>End-to-end pipeline tested across high-volume streams with unit, integration, contract, and load suites; ADRs and a runbook document the design.</p>
+            </div>
+          </div>
+          <a class="project-card__repo" href="https://github.com/SMMandora/sustainable-city-management" target="_blank" rel="noopener">View repo ↗</a>
+        </article>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- ===== 05 / CURRENTLY BUILDING ===== -->
+  <section class="section container" id="building" aria-labelledby="building-title">
+    <header class="section__head">
+      <span class="section__ghost" aria-hidden="true">05</span>
+      <span class="section__num">// 05</span>
+      <h2 id="building-title" class="section__title">currently building</h2>
+    </header>
+
+    <p class="building__lede" data-reveal>Active threads — where my nights and weekends are going right now.</p>
+
+    <ul class="building__grid">
+      <li class="building__item" data-reveal>
+        <span class="building__status building__status--now">Building now</span>
+        <h3>Streaming Data Platform <span class="building__lang">Go</span></h3>
+        <p>Exactly-once event pipeline — Kafka ingest, a hand-rolled Go stream processor (franz-go transactions, event-time windowing), change-data-capture from Postgres via Debezium, a ClickHouse sink, and a live dashboard.</p>
+        <ul class="building__tech">
+          <li>Go</li><li>franz-go</li><li>Kafka</li><li>Debezium</li><li>ClickHouse</li><li>Avro</li>
+        </ul>
+        <p class="building__why">Real-time streaming infrastructure with exactly-once correctness under chaos.</p>
+      </li>
+      <li class="building__item" data-reveal data-reveal-delay="80">
+        <span class="building__status building__status--next">Next</span>
+        <h3>Distributed KV Store with Raft <span class="building__lang">Go</span></h3>
+        <p>Replicated key-value store implementing the Raft consensus protocol from scratch — leader election, log replication, snapshotting, and linearizable reads.</p>
+        <ul class="building__tech">
+          <li>Go</li><li>Raft</li><li>consensus</li><li>replication</li>
+        </ul>
+        <p class="building__why">Distributed-systems depth — consensus, not just fan-out.</p>
+      </li>
+      <li class="building__item" data-reveal data-reveal-delay="160">
+        <span class="building__status building__status--planned">Planned</span>
+        <h3>Kubernetes Operator <span class="building__lang">Go</span></h3>
+        <p>Custom controller and CRD that provisions and manages an observability stack — reconciliation loops, finalizers, and status conditions on controller-runtime.</p>
+        <ul class="building__tech">
+          <li>Go</li><li>Kubernetes</li><li>controller-runtime</li><li>CRDs</li>
+        </ul>
+        <p class="building__why">Cloud-native platform engineering.</p>
       </li>
     </ul>
   </section>
 
-  <!-- ===== 04 / DEVOPS PRACTICE ===== -->
+  <!-- ===== 06 / DEVOPS PRACTICE ===== -->
   <section class="section container" id="devops" aria-labelledby="devops-title">
     <header class="section__head">
-      <span class="section__ghost" aria-hidden="true">04</span>
-      <span class="section__num">// 04</span>
+      <span class="section__ghost" aria-hidden="true">06</span>
+      <span class="section__num">// 06</span>
       <h2 id="devops-title" class="section__title">devops practice</h2>
     </header>
 
@@ -619,42 +700,42 @@
       <div class="devops__diagram">
         <svg viewBox="0 0 600 170" class="arch-diagram pipeline-diagram" role="img" aria-label="CI/CD pipeline: commit, build, test, deploy, observe — with quality gates blocking releases">
           <!-- Stage 1: commit -->
-          <rect x="30" y="40" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-          <text x="70" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a8a8" text-anchor="middle">commit</text>
-          <text x="70" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#707070" text-anchor="middle">git</text>
+          <rect x="30" y="40" width="80" height="36" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+          <text x="70" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#8A94A6" text-anchor="middle">commit</text>
+          <text x="70" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#5A6478" text-anchor="middle">git</text>
 
           <!-- Stage 2: build -->
-          <rect x="142" y="40" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-          <text x="182" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a8a8" text-anchor="middle">build</text>
-          <text x="182" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#707070" text-anchor="middle">docker</text>
+          <rect x="142" y="40" width="80" height="36" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+          <text x="182" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#8A94A6" text-anchor="middle">build</text>
+          <text x="182" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#5A6478" text-anchor="middle">docker</text>
 
           <!-- Stage 3: test -->
-          <rect x="254" y="40" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-          <text x="294" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a8a8" text-anchor="middle">test</text>
-          <text x="294" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#707070" text-anchor="middle">pytest</text>
+          <rect x="254" y="40" width="80" height="36" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+          <text x="294" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#8A94A6" text-anchor="middle">test</text>
+          <text x="294" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#5A6478" text-anchor="middle">pytest</text>
 
           <!-- Stage 4: deploy -->
-          <rect x="366" y="40" width="80" height="36" rx="6" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-          <text x="406" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a8a8" text-anchor="middle">deploy</text>
-          <text x="406" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#707070" text-anchor="middle">jenkins · k8s</text>
+          <rect x="366" y="40" width="80" height="36" rx="6" fill="none" stroke="#2A3548" stroke-width="1"/>
+          <text x="406" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#8A94A6" text-anchor="middle">deploy</text>
+          <text x="406" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#5A6478" text-anchor="middle">github actions · k8s</text>
 
           <!-- Stage 5: observe -->
-          <rect x="478" y="40" width="80" height="36" rx="6" fill="none" stroke="#d8ff3c" stroke-width="1"/>
-          <text x="518" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#d8ff3c" text-anchor="middle">observe</text>
-          <text x="518" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#707070" text-anchor="middle">grafana · slos</text>
+          <rect x="478" y="40" width="80" height="36" rx="6" fill="none" stroke="#2F6BFF" stroke-width="1"/>
+          <text x="518" y="63" font-family="JetBrains Mono, monospace" font-size="11" fill="#2F6BFF" text-anchor="middle">observe</text>
+          <text x="518" y="94" font-family="JetBrains Mono, monospace" font-size="9" fill="#5A6478" text-anchor="middle">grafana · slos</text>
 
           <!-- Arrows between stages -->
-          <line x1="110" y1="58" x2="142" y2="58" stroke="#d8ff3c" stroke-width="1.5"/>
-          <line x1="222" y1="58" x2="254" y2="58" stroke="#d8ff3c" stroke-width="1.5"/>
-          <line x1="334" y1="58" x2="366" y2="58" stroke="#d8ff3c" stroke-width="1.5"/>
-          <line x1="446" y1="58" x2="478" y2="58" stroke="#d8ff3c" stroke-width="1.5"/>
+          <line x1="110" y1="58" x2="142" y2="58" stroke="#2F6BFF" stroke-width="1.5"/>
+          <line x1="222" y1="58" x2="254" y2="58" stroke="#2F6BFF" stroke-width="1.5"/>
+          <line x1="334" y1="58" x2="366" y2="58" stroke="#2F6BFF" stroke-width="1.5"/>
+          <line x1="446" y1="58" x2="478" y2="58" stroke="#2F6BFF" stroke-width="1.5"/>
 
           <!-- Quality gates bracket beneath build → test → deploy -->
-          <line x1="142" y1="115" x2="142" y2="128" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="446" y1="115" x2="446" y2="128" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="142" y1="128" x2="446" y2="128" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="294" y1="128" x2="294" y2="135" stroke="#2a2a2a" stroke-width="1"/>
-          <text x="294" y="152" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a8a8" text-anchor="middle" letter-spacing="2">QUALITY GATES BLOCK BAD RELEASES</text>
+          <line x1="142" y1="115" x2="142" y2="128" stroke="#2A3548" stroke-width="1"/>
+          <line x1="446" y1="115" x2="446" y2="128" stroke="#2A3548" stroke-width="1"/>
+          <line x1="142" y1="128" x2="446" y2="128" stroke="#2A3548" stroke-width="1"/>
+          <line x1="294" y1="128" x2="294" y2="135" stroke="#2A3548" stroke-width="1"/>
+          <text x="294" y="152" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A94A6" text-anchor="middle" letter-spacing="2">QUALITY GATES BLOCK BAD RELEASES</text>
         </svg>
       </div>
 
@@ -692,7 +773,7 @@
       <div class="devops__tools-row">
         <span class="devops__label">// stack</span>
         <ul class="chip-list">
-          <li>Docker</li><li>Kubernetes</li><li>Jenkins</li>
+          <li>Docker</li><li>Kubernetes</li>
           <li>GitHub Actions</li><li>Grafana</li><li>AWS</li>
           <li>Azure</li><li>GCP</li><li>pytest</li><li>Linux</li>
         </ul>
@@ -700,175 +781,72 @@
     </div>
   </section>
 
-  <!-- ===== 05 / EXPERIENCE ===== -->
-  <section class="section container" id="experience" aria-labelledby="experience-title">
+  <!-- ===== OBSERVABILITY DASHBOARD ===== -->
+  <section class="section container" id="observability" aria-labelledby="obs-title">
     <header class="section__head">
-      <span class="section__ghost" aria-hidden="true">05</span>
-      <span class="section__num">// 05</span>
-      <h2 id="experience-title" class="section__title">experience</h2>
+      <span class="section__num">// observability</span>
+      <h2 id="obs-title" class="section__title">live SLO control center</h2>
     </header>
-
-    <ol class="timeline">
-      <li class="timeline__entry" data-reveal>
-        <time class="timeline__date">08/2025 → Present</time>
-        <div class="timeline__body">
-          <h3 class="timeline__role">Founding Engineer — Backend &amp; Data</h3>
-          <p class="timeline__org">Vizzy Labs, Inc. · Brooklyn, NY</p>
-          <ul class="timeline__bullets">
-            <li>Designed and shipped real-time mobile game backend on AWS with SLO-backed 24×7 uptime.</li>
-            <li>Built CI/CD pipelines (Docker, Jenkins, GitHub Actions, K8s) with automated test suites and quality gates.</li>
-            <li>Designed telemetry-driven observability: Grafana dashboards, automated failure detection, proactive alerting.</li>
-          </ul>
-        </div>
-      </li>
-
-      <li class="timeline__entry" data-reveal>
-        <time class="timeline__date">01/2025 → 08/2025</time>
-        <div class="timeline__body">
-          <h3 class="timeline__role">Research Assistant</h3>
-          <p class="timeline__org">New York Institute of Technology · New York City</p>
-          <ul class="timeline__bullets">
-            <li>Built AI-driven real-time gesture recognition pipeline using a custom smart glove with inductive sensors.</li>
-            <li>Integrated LLM + RAG capabilities via LangChain for tool-use orchestration and real-time content validation.</li>
-            <li>Trained classification models (Random Forest, SVM, MLP) achieving &gt;95% accuracy with robust validation across dataset updates.</li>
-          </ul>
-        </div>
-      </li>
-
-      <li class="timeline__entry" data-reveal>
-        <time class="timeline__date">02/2022 → 04/2022</time>
-        <div class="timeline__body">
-          <h3 class="timeline__role">Software Developer Intern</h3>
-          <p class="timeline__org">IDZ Digital Pvt. Ltd. · Mumbai, India</p>
-          <ul class="timeline__bullets">
-            <li>Shipped multiple consumer mobile games (Tizi World Series) in Java, Kotlin, C#, and Unity.</li>
-            <li>End-to-end SDLC ownership: requirements through App Store / Play Store deployment.</li>
-            <li>Built regression and performance test suites prior to release, identifying defects early.</li>
-          </ul>
-        </div>
-      </li>
-
-      <li class="timeline__entry" data-reveal>
-        <time class="timeline__date">05/2021 → 07/2021</time>
-        <div class="timeline__body">
-          <h3 class="timeline__role">Developer Intern</h3>
-          <p class="timeline__org">Clear Exam · Nashik, India</p>
-          <ul class="timeline__bullets">
-            <li>Built high-throughput Java + Python data processing pipeline with automated classification workflows.</li>
-            <li>Designed secure API-driven backend services with auth, input validation, and data integrity checks.</li>
-          </ul>
-        </div>
-      </li>
-
-      <li class="timeline__entry" data-reveal>
-        <time class="timeline__date">07/2020 → 10/2020</time>
-        <div class="timeline__body">
-          <h3 class="timeline__role">Software Developer Intern</h3>
-          <p class="timeline__org">Divspace, LLP · Nasik, India</p>
-          <ul class="timeline__bullets">
-            <li>Built Python + JavaScript automation for property listing data processing and content validation.</li>
-            <li>CI/CD-style deployment workflows with automated validation across iterative releases.</li>
-          </ul>
-        </div>
-      </li>
-    </ol>
-  </section>
-
-  <!-- ===== 06 / SKILLS ===== -->
-  <section class="section container" id="skills" aria-labelledby="skills-title">
-    <header class="section__head">
-      <span class="section__ghost" aria-hidden="true">06</span>
-      <span class="section__num">// 06</span>
-      <h2 id="skills-title" class="section__title">skills &amp; certs</h2>
-    </header>
-
-    <div class="skill-group" data-reveal>
-      <div class="skill-group__head">
-        <h3 class="skill-group__title">languages</h3>
-        <span class="skill-group__ci">● ci: passing</span>
-      </div>
-      <ul class="chip-list">
-        <li>Python</li><li>Go</li><li>TypeScript</li><li>Java</li><li>Kotlin</li>
-        <li>JavaScript</li><li>C</li><li>C++</li><li>C#</li><li>R</li>
-        <li>Swift</li><li>Shell</li><li>MATLAB</li>
-      </ul>
-    </div>
-
-    <div class="skill-group" data-reveal>
-      <div class="skill-group__head">
-        <h3 class="skill-group__title">data engineering</h3>
-        <span class="skill-group__ci">● ci: passing</span>
-      </div>
-      <ul class="chip-list">
-        <li>PostgreSQL</li><li>MongoDB</li><li>Redis</li><li>Apache Kafka</li>
-        <li>Hadoop</li><li>Neo4j</li><li>ETL</li><li>Pandas</li><li>JSON</li><li>XML</li>
-      </ul>
-    </div>
-
-    <div class="skill-group" data-reveal>
-      <div class="skill-group__head">
-        <h3 class="skill-group__title">cloud &amp; devops</h3>
-        <span class="skill-group__ci">● ci: passing</span>
-      </div>
-      <ul class="chip-list">
-        <li>AWS</li><li>Azure</li><li>GCP</li><li>Docker</li><li>Kubernetes</li>
-        <li>Jenkins</li><li>CI/CD</li><li>EC2</li><li>S3</li><li>SageMaker</li><li>Lambda</li>
-      </ul>
-    </div>
-
-    <div class="skill-group" data-reveal>
-      <div class="skill-group__head">
-        <h3 class="skill-group__title">frameworks &amp; web</h3>
-        <span class="skill-group__ci">● ci: passing</span>
-      </div>
-      <ul class="chip-list">
-        <li>Node.js</li><li>React</li><li>Django</li><li>FastAPI</li>
-        <li>Spring WebFlux</li><li>LangChain</li><li>GraphQL</li>
-        <li>REST</li><li>HTML/CSS</li>
-      </ul>
-    </div>
-
-    <div class="skill-group" data-reveal>
-      <div class="skill-group__head">
-        <h3 class="skill-group__title">visualization &amp; BI</h3>
-        <span class="skill-group__ci">● ci: passing</span>
-      </div>
-      <ul class="chip-list">
-        <li>Power BI</li><li>Tableau</li><li>Looker</li><li>Grafana</li><li>Dash</li>
-      </ul>
-    </div>
-
-    <div class="skill-group" data-reveal>
-      <div class="skill-group__head">
-        <h3 class="skill-group__title">tools</h3>
-        <span class="skill-group__ci">● ci: passing</span>
-      </div>
-      <ul class="chip-list">
-        <li>Git</li><li>GitHub</li><li>RedHat Linux</li><li>pytest</li><li>Microsoft 365</li>
-      </ul>
-    </div>
-
-    <div class="cert-list" data-reveal>
-      <div class="cert">
-        <div class="cert__label">AWS</div>
-        <div class="cert__title">Cloud Practitioner</div>
-      </div>
-      <div class="cert">
-        <div class="cert__label">Coursera</div>
-        <div class="cert__title">Google Advanced Data Analytics</div>
-      </div>
-      <div class="cert">
-        <div class="cert__label">Cisco</div>
-        <div class="cert__title">Python Essentials</div>
-      </div>
+    <p class="obs__lede" data-reveal>Live snapshots from my SLO Control Center during a chaos run — payments-worker breaching its budget (16.11× burn, FastBurn paging) while the rest of the mesh holds. One Prometheus source of truth, rendered in a custom React UI and a Grafonnet-generated Grafana board.</p>
+    <div class="obs-shots" data-reveal>
+      <figure class="obs-shot obs-shot--tall">
+        <img src="./assets/img/slo-control-center.png" width="1440" height="1600" loading="lazy" alt="SLO Control Center overview during a chaos run: 100% availability, 36ms p95, 100% error budget; an error-budget table showing payments-worker at 0% remaining and 16.11x burn; a 28-day compliance graph; and a live service health map with payments-worker shown red.">
+        <figcaption><span class="obs-shot__tag">React Control Center</span>payments-worker breaching its budget at 16.11× while orders-api and notification-svc stay green — my custom 8-tab SLO UI.</figcaption>
+      </figure>
+      <figure class="obs-shot">
+        <img src="./assets/img/slo-grafana.png" width="1600" height="1000" loading="lazy" alt="Grafana SLO dashboard generated from Grafonnet: 100% availability, an error-budget gauge, 34.5ms p95 latency, and burn-rate and p95 latency time series.">
+        <figcaption><span class="obs-shot__tag">Grafonnet → Grafana</span>the same SLOs from one Prometheus source of truth — zero manual dashboard editing.</figcaption>
+      </figure>
+      <a class="case-study__repo" href="https://github.com/SMMandora/SLO-Control-Center" target="_blank" rel="noopener">View the SLO Control Center repo ↗</a>
     </div>
   </section>
 
-  <!-- ===== 07 / EDUCATION ===== -->
-  <section class="section container" id="education" aria-labelledby="education-title">
+  <!-- ===== 07 / ENGINEERING HIGHLIGHTS ===== -->
+  <section class="section container" id="highlights" aria-labelledby="highlights-title">
     <header class="section__head">
       <span class="section__ghost" aria-hidden="true">07</span>
       <span class="section__num">// 07</span>
+      <h2 id="highlights-title" class="section__title">engineering highlights</h2>
+    </header>
+
+    <ul class="highlight-list">
+      <li class="highlight" data-reveal>
+        <p>Built <span class="accent">Python ETL pipelines on AWS</span> ingesting high-volume event data, with automated data-quality and integrity checks.</p>
+      </li>
+      <li class="highlight" data-reveal>
+        <p>Built <span class="accent">RAG semantic search</span> with LangChain and pgvector over embedding-based similarity.</p>
+      </li>
+      <li class="highlight" data-reveal>
+        <p>Architected <span class="accent">CI/CD with automated quality gates</span> that block regressions before they reach production.</p>
+      </li>
+      <li class="highlight" data-reveal>
+        <p>Built and tuned <span class="accent">scikit-learn classifiers</span> (Random Forest, SVM, MLP) for classification and deduplication with cross-validation.</p>
+      </li>
+      <li class="highlight" data-reveal>
+        <p>Instrumented services with <span class="accent">Prometheus, Grafana, and OpenTelemetry</span> — dashboards, alerting, and distributed tracing.</p>
+      </li>
+      <li class="highlight" data-reveal>
+        <p>Built <span class="accent">real-time data platforms</span> ingesting live public APIs across high-volume streams.</p>
+      </li>
+    </ul>
+
+    <div class="highlights__foot" data-reveal>
+      <div class="toolbox">
+        <span class="toolbox__label">// toolbox</span>
+        <p class="toolbox__line">Python · Go · TypeScript · FastAPI · Django · Celery · React · LangChain · LangGraph · PostgreSQL · MongoDB · DynamoDB · Redis · pgvector · Docker · Kubernetes · AWS · Prometheus · Grafana · OpenTelemetry · Claude API</p>
+      </div>
+      <div class="certs-inline">
+        <span class="toolbox__label">// certifications</span>
+        <p class="toolbox__line">AWS Cloud Practitioner · Google Advanced Data Analytics (Coursera) · Cisco Python Essentials</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 08 / EDUCATION ===== -->
+  <section class="section container" id="education" aria-labelledby="education-title">
+    <header class="section__head">
+      <span class="section__ghost" aria-hidden="true">08</span>
+      <span class="section__num">// 08</span>
       <h2 id="education-title" class="section__title">education</h2>
     </header>
 
@@ -886,11 +864,11 @@
     </ul>
   </section>
 
-  <!-- ===== 08 / CONTACT ===== -->
+  <!-- ===== 09 / CONTACT ===== -->
   <section class="section container" id="contact" aria-labelledby="contact-title">
     <header class="section__head">
-      <span class="section__ghost" aria-hidden="true">08</span>
-      <span class="section__num">// 08</span>
+      <span class="section__ghost" aria-hidden="true">09</span>
+      <span class="section__num">// 09</span>
       <h2 id="contact-title" class="section__title">contact</h2>
     </header>
 
@@ -927,7 +905,7 @@
 </main>
 
 <footer class="footer">
-  <span>© 2026 Shubham Mandora · Brooklyn, NY</span>
+  <span>© 2026 Shubham Mandora · Jersey City, NJ</span>
   <span>last deployed · <span data-deployed-at>—</span></span>
 </footer>
 
